@@ -1,6 +1,6 @@
 # SPPA
 
-This is the reference code of work: "Continual Semantic Segmentation via Structure Preserving and Projected Feature Alignment" published at ECCV22. We presents two novel constraints designed specifically for CSS task
+This is the reference code of work: "Continual Semantic Segmentation via Structure Preserving and Projected Feature Alignment" published at ECCV22.
 
 </br>
 
