@@ -4,7 +4,7 @@ This is the reference code of work: "Continual Semantic Segmentation via Structu
 
 </br>
 
-<center><img src="images/fig1.png" width="500"/></center>
+![framework](images/fig1.png)
 
 
 
@@ -58,11 +58,10 @@ All the losses we proposed in this work lie in `utils/loss.py` with detailed Doc
 
 ## Hyper-parameters
 
-The hyper-parameters of our method can be set as follows:
+The hyper-parameters of our method can be set as follows. Note that the best parameters may vary across datasets and setups.
 
 - L_ali: alpha can be between 10 to 100, we use 30.
 - L_str: beta can be between 1 to 100, we use 10. nu * beta can be between 1e-2 to 1e-1, we use 1e-1.
 - L_cont: gamma can be between 1e-3 to 1e-1, we use 1e-2. usually mu = 1 is good.
 - pseudo label: T_c is selected to keep 80% percent of the raw pseudo labels
 
-Note that the best parameters may vary across datasets and setups.
