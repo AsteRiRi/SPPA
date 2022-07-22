@@ -50,7 +50,7 @@ If you want to do testing, specify the following parameters:
 
 ## Key components
 
-The definition and training code of the projector module lie in `modules/projector.py` and `modules/transnet.py`. We the projector is optimized using SGD witm momentum. It is trained with a batch size of 32 for 1.5K iters on VOC and 3K iters on ADE. the learning rate is 1e-1 for the first 75% iters and 1e-2 for the rest. 
+The definition and training code of the projector module lie in `modules/projector.py` and `modules/transnet.py`. The projector is optimized using SGD witm momentum. It is trained with a batch size of 32 for 1.5K iters on VOC and 3K iters on ADE. the learning rate is 1e-1 for the first 75% iters and 1e-2 for the rest. 
 
 All the losses we proposed in this work lie in `utils/loss.py` with detailed Docstrings. They can be easily integrated with little modification in other code base or tasks.
 
