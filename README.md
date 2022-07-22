@@ -2,7 +2,9 @@
 
 This is the reference code of work: "Continual Semantic Segmentation via Structure Preserving and Projected Feature Alignment" published at ECCV22. We presents two novel constraints designed specifically for CSS task
 
-<img src="images/fig1.png" width="500"/>
+</br>
+
+<img src="images/fig1.png" width="500" align="center"/>
 
 
 
