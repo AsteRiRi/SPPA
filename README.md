@@ -4,7 +4,7 @@ This is the reference code of work: "Continual Semantic Segmentation via Structu
 
 </br>
 
-<img src="images/fig1.png" width="500" align="center"/>
+<center><img src="images/fig1.png" width="500"/></center>
 
 
 
